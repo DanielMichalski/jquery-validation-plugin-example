@@ -1,0 +1,15 @@
+{
+  "name": "jquery-validation-plugin-example",
+  "authors": [
+    "Daniel Michalski <michalskidaniel2@gmail.com>"
+  ],
+  "description": "Short example how to use JQuery validation plugin",
+  "main": "register-form.html",
+  "license": "MIT",
+  "homepage": "http://www.youtube.com/playlist?list=PLn3LWU814cXZtc7j3N3w8HPIPcDJ1RLU7",
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "jquery": "~3.1.1",
+    "jquery-validate": "~1.15.0"
+  }
+}

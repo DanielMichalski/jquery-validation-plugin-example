@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/jquery-validate/dist/jquery.validate.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="well">
+        <h2>Register form</h2>
+
+        <form id="form-register" class="form-horizontal form-register" method="POST"
+              action="#">
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="firstname">First name:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="firstname" id="firstname"
+                           placeholder="Enter first name"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="surname">Last name:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="lastname" id="surname" placeholder="Enter last name"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="password">Password:</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" name="password" id="password"
+                           placeholder="Enter password"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="password_again">Password again</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" name="password_again" id="password_again"
+                           placeholder="Enter password again"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="birthdate">Birthdate:</label>
+                <div class="col-sm-9">
+                    <input type="date" min="1900-01-01" class="form-control" name="birthdate" id="birthdate"
+                           placeholder="Enter birthdate"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="login">Login:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="login" id="login" placeholder="Enter login"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="pesel">PESEL:</label>
+                <div class="col-sm-9">
+                    <input type="number" class="form-control" name="pesel" id="pesel" placeholder="PESEL"
+                           onkeyup="checkPESELAndSetSexType()"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3">Sex type:</label>
+                <div class="col-sm-9">
+                    <div class="radio-inline">
+                        <label><input type="radio" id="sex_f" name="sex_f" value="f"/>Female</label>
+                    </div>
+                    <div class="radio-inline">
+                        <label><input type="radio" id="sex_m" name="sex_m" value="m"/>Male</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="photo">Photo:</label>
+                <div class="col-sm-9">
+                    <input type="file" class="btn" name="photo" id="photo" required/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-9">
+                    <button type="reset" class="btn btn-default">Clear</button>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="scripts/form-validation.js"></script>
+
+</body>
+</html>
+
