@@ -35,14 +35,10 @@ Video
 Screens
 ---------------------------------------------
 
-![alt text](https://github.com/DanielMichalski/spring-web-rss-channels/blob/master/rss-web/src/main/resources/img/screen1.png "Screen 1")
+![Screen 1](https://github.com/DanielMichalski/jquery-validation-plugin-example/blob/master/screens/1.png "Screen 1")
 
-![alt text](https://github.com/DanielMichalski/spring-web-rss-channels/blob/master/rss-web/src/main/resources/img/screen2.png "Screen 2")
+![Screen 2](https://github.com/DanielMichalski/jquery-validation-plugin-example/blob/master/screens/2.png "Screen 2")
 
-![alt text](https://github.com/DanielMichalski/spring-web-rss-channels/blob/master/rss-web/src/main/resources/img/screen3.png "Screen 3")
+![Screen 3](https://github.com/DanielMichalski/jquery-validation-plugin-example/blob/master/screens/3.png "Screen 3")
 
-![alt text](https://github.com/DanielMichalski/spring-web-rss-channels/blob/master/rss-web/src/main/resources/img/screen4.png "Screen 4")
-
-![alt text](https://github.com/DanielMichalski/spring-web-rss-channels/blob/master/rss-web/src/main/resources/img/screen5.png "Screen 5")
-
-![alt text](https://github.com/DanielMichalski/spring-web-rss-channels/blob/master/rss-web/src/main/resources/img/screen6.png "Screen 6")
+![Screen 4](https://github.com/DanielMichalski/jquery-validation-plugin-example/blob/master/screens/4.png "Screen 4")
