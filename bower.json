@@ -4,7 +4,7 @@
     "Daniel Michalski <michalskidaniel2@gmail.com>"
   ],
   "description": "Short example how to use JQuery validation plugin",
-  "main": "register-form.html",
+  "main": "sites/register-form.html",
   "license": "MIT",
   "homepage": "http://www.youtube.com/playlist?list=PLn3LWU814cXZtc7j3N3w8HPIPcDJ1RLU7",
   "dependencies": {
