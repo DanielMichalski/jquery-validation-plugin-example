@@ -15,6 +15,9 @@ It contains some useful configuration items:
 How to run application
 ---------------------------------------------
 ```bash
+## If You don't have Node.js installed
+https://docs.npmjs.com/getting-started/installing-node
+
 ## If You don't have bower installed
 npm install -g bower
 
